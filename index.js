@@ -47,7 +47,7 @@ generateBtn.addEventListener("click", function() {
 
             setTimeout(function() {
                 feedback2.innerText = ""
-            }, 3000);
+            }, 2000);
         } else {
             feedback2.innerText = "Password field is empty!"
         }
