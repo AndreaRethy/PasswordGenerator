@@ -4,6 +4,7 @@ body {
     align-items: center;
     background-color: #1F2937;
     font-family: Inter, sans-serif;
+    color: #4ADF86;
 }
 
 h1 {
@@ -35,12 +36,15 @@ button {
     
 }
 
-.passwords {
+#container {
     display: flex;
     
 }
 
-#password1 {
+.password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #273549;
     width: 211px;
     height: 39px;
@@ -48,10 +52,3 @@ button {
     margin-right: 12px;
 }
 
-#password2 {
-    background-color: #273549;
-    width: 211px;
-    height: 39px;
-    border-radius: 6px;
-    margin-left: 12px;
-}
