@@ -47,6 +47,12 @@ button {
     height: 25px;
 }
 
+.container-big {
+    display: flex;
+    justify-content: center;
+    color: #D5D4D8;
+}
+
 .container {
     display: flex;
     justify-content: center;
