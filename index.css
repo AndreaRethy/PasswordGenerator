@@ -4,7 +4,6 @@ body {
     align-items: center;
     background-color: #1F2937;
     font-family: Inter, sans-serif;
-    color: #4ADF86;
 }
 
 h1 {
@@ -25,20 +24,32 @@ button {
     border: none;
     border-radius: 6px;
     padding: 9px 15px;
-    margin-top: 50px;
 }
 
 #line {
     width: cover;
     height: 1px;
     background-color: #273549;
-    margin: 35px 0;
+    margin: 35px 0 30px;
     
+}
+
+#passwordLenght {
+    display: flex;
+    align-items: center;
+    color: #D5D4D8;
+    margin-top: 50px;
+}
+
+#characterLenght {
+    width: 40px;
+    margin-left: 10px;
+    height: 25px;
 }
 
 #container {
     display: flex;
-    
+    align-items: center;
 }
 
 .password {
@@ -49,6 +60,13 @@ button {
     width: 211px;
     height: 39px;
     border-radius: 6px;
-    margin-right: 12px;
+    border: none;
+    color: #4ADF86;
+}
+
+.copy-btn {
+    margin-right: 20px;
+    background-color: #1F2937;
+    font-size: 25px;
 }
 
