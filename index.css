@@ -47,9 +47,11 @@ button {
     height: 25px;
 }
 
-#container {
+.container {
     display: flex;
+    justify-content: center;
     align-items: center;
+    color: #D5D4D8;
 }
 
 .password {
